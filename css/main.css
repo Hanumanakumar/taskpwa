@@ -1,0 +1,220 @@
+
+body { 
+  display: grid;
+  grid-template-areas: "header header header"
+    "right main left"
+    "footer footer footer";
+ grid-template-rows: 60px 1fr 60px;
+ grid-template-columns: 25%;
+  grid-gap: 10px;
+  height: 100vh;
+  margin: 0;
+  }
+  
+.header {
+  grid-area: header;
+  text-align: center;
+  color:blue;
+  font-size:30px;
+}
+.footer {
+  grid-area:footer;
+  padding:45px;
+background:teal;
+text-align: center;
+
+}
+.main { 
+  grid-area:;      
+  }
+.left { 
+  grid-area: left; 
+  }
+.right { 
+  grid-area: right; 
+  }
+header, div {
+  padding: 20px;
+  background:gray;
+}
+div{
+  background:darkseagreen;
+}
+h2,.mark{
+  text-align: center;
+  color:maroon;
+  font-size:20px;
+}
+.mark{
+  font-size:30px;
+}
+h3{
+  color:darkblue;
+}
+li{
+  color:forestgreen;
+  font-family:Arial, Helvetica, sans-serif;
+  font-size:25px;
+
+}
+a{
+  color:blue;
+
+}
+.smm{
+  display:flex;
+  flex-direction: row;
+  width:80%;
+}
+.smm>div{
+  width:33%;
+}
+img{
+  border-radius:50%;
+  border: solid orange;
+}
+#color{
+  color:maroon;
+  font-size: 20px;
+}
+#color1{
+  color:green;
+  font-size:20px;
+}
+
+span{
+  color:crimson;
+  font-size:25px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.loginbox input[type="text"], input[type="password"]
+{
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: #fff;
+    font-size: 16px;
+}
+.loginbox input[type="submit"]
+{
+    border: none;
+    outline: none;
+    height: 40px;
+    background: #fb2525;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 20px;
+}
+.loginbox input[type="submit"]:hover
+{
+    cursor: pointer;
+    background: #ffc107;
+    color: #000;
+}
+.loginbox a{
+    text-decoration: none;
+    font-size: 12px;
+    line-height: 20px;
+    color: darkgrey;
+}
+
+.loginbox a:hover
+{
+    color: #ffc107;
+}
